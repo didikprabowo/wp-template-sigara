@@ -1,0 +1,402 @@
+/* 
+Theme Name: sigara 
+Author: Didik Prabowo - Kodingin
+Description: Template Blog Sigara 
+Version: 1.0.0 
+Author URI : kodingin.com
+ */
+
+body,
+html {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.featured .row {
+    margin-bottom: 3rem;
+}
+
+
+
+.wp-block-code {
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    background: #F7F7F7;
+}
+
+.title_home_content {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.title_home_content_link,
+.title_home_content_link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.content_populer_title {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, .84) !important;
+}
+
+.content_populer_title_link,
+.content_populer_title_link:hover {
+    text-decoration: none;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.title_heading_sidebar,
+.widget-title {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: black;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, .15) !important;
+}
+
+.author_sidebar,
+.author_sidebar:hover,
+.category_sidebar,
+.category_sidebar:hover {
+    color: #757575;
+}
+
+.list_populer {
+    margin-bottom: 1rem;
+}
+
+.author_content_list_link {
+    color: #757575;
+}
+
+.category_content_list_link a {
+    color: #757575 !important;
+}
+
+.header {
+    margin-bottom: 7rem;
+}
+
+.widget_siber,
+.widget_siber section {
+    margin-bottom: 2rem !important;
+}
+
+
+
+.contact_sidebar {
+    float: left;
+}
+
+.contact_list_heading {
+    margin-inline-start: 0px !important;
+    padding-inline-start: 0 !important
+}
+
+.contact_sidebar {
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+
+.contact_sidebar a {
+    color: #757575;
+}
+
+.title_newsletter {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: black;
+    padding-bottom: 8px;
+}
+
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    z-index: 1020;
+}
+
+.body_detail img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.body_detail p {
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    color: rgba(17, 17, 17, 0.84) !important;
+}
+
+.body_detail h2,
+.body_detail h3,
+.body_detail h4 {
+    margin-top: 0.5rem;
+}
+
+.body_detail p a,
+.body_detail figcaption a {
+    color: rgba(17, 17, 17, 0.84) !important;
+    border-bottom: 1px solid;
+}
+
+.img_heading {
+    width: 100%;
+}
+
+.desc {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.author_image_detail {
+    margin: 0 !important;
+}
+
+.author_social {
+    padding: 5px;
+}
+
+.author_social i {
+    margin-right: 10px;
+}
+
+.img_related {
+    margin: 0 !important;
+}
+
+.title_related {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, .84) !important;
+}
+
+.author_related_and_category a {
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.time_related {
+    color: #757575;
+    font-size: 0.75rem;
+}
+
+.title_related_heading {
+    color: black;
+    font-size: 1.75rem;
+}
+
+.left-sticky-detail {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 300px;
+    bottom: 100;
+    z-index: 1020;
+}
+
+.left_bar_title {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.left_bar_body {
+    color: #757575;
+}
+
+.footer {
+    margin-top: 9rem;
+    padding-top: 2rem;
+    background-color: #f8f9fa !important;
+}
+
+.footer .perusahaan_list {
+    margin-inline-start: 0px !important;
+    padding-inline-start: 0 !important
+}
+
+.footer .perusahaan_list li {
+    list-style: none;
+}
+
+.footer .perusahaan_list li a {
+    color: black;
+}
+
+.perusahaan_header {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.end_footer {
+    /* background: #757575; */
+}
+
+.image_featured {
+    width: 100%;
+    height: 100%;
+}
+
+.link_featured,
+.link_featured:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.title_featured {
+    font-size: 1.7rem;
+}
+
+.author_featured,
+.time_featured,
+.category_title {
+    color: #757575;
+    font-size: 1rem;
+}
+
+.category_title a {
+    color: #757575;
+}
+
+.desc_featured {
+    padding-top: 10px;
+}
+
+.title_by_category {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.author_page_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.comment_title {
+    font-size: 1.6rem;
+    width: 100%;
+    color: #757575;
+}
+
+.author_social a {
+    color: black;
+}
+
+.tags_bottom {
+    font-size: 1rem !important;
+    margin-right: 5px;
+}
+
+.tags_bottom a,
+.tags_bottom a:hover {
+    color: white;
+}
+
+.content img,
+.content figure {
+    max-width: 100% !important;
+}
+
+.bagikan {
+    /* display: contents;
+    margin-top: 6px; */
+}
+
+.logo_text {
+    font-weight: 600;
+    color: #28A745;
+    font-size: 1.4rem;
+}
+
+.footer_logo_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #28A745;
+}
+
+.body,
+.body_author {
+    margin-top: 3rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .left-sticky-detail {
+        display: none;
+    }
+
+    .author_social a i {
+        font-size: 1.2rem;
+    }
+
+    .author .body_author .heading_author {
+        text-align: center;
+    }
+
+    .title_featured {
+        margin-top: 20px;
+    }
+
+    .body_detail .detail_author_name {
+        font-size: 0.9rem;
+    }
+
+    .body_detail .bagikan {
+        display: none;
+    }
+
+    .body_detail .card {
+        margin-bottom: 15px;
+    }
+
+    .body_detail h1 {
+        font-size: 1.7rem;
+    }
+
+    .body_detail h2 {
+        font-size: 1.5rem;
+    }
+
+    .body_detail h3 {
+        font-size: 1.3rem;
+    }
+
+    .body_detail h4 {
+        font-size: 1rem;
+    }
+
+    .body_detail h1,
+    .body_detail h2,
+    .body_detail h3,
+    .body_detail h4 {
+        color: black;
+        font-weight: 600;
+    }
+
+    .form_search {
+        /* margin-bottom:100px */
+        width: 100%
+    }
+
+    .form_search button {
+        width: 100%
+    }
+
+    .body {
+        margin-top: -3rem !important;
+    }
+
+    .body_detail {
+        margin-top: -1rem;
+    }
+
+    .body_author {
+        margin-top: -2rem;
+    }
+}
