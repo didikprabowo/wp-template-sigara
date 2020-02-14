@@ -120,6 +120,13 @@ html {
     z-index: 1020;
 }
 
+#rs {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    z-index: 1020;
+}
+
 .body_detail img {
     margin-top: 15px;
     margin-bottom: 15px;

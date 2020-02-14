@@ -1,7 +1,7 @@
 <div class="widget_siber">
 	<?php dynamic_sidebar('sidebar-1'); ?>
 </div>
-<div class="sticky-top ">
+<div id="rs">
 	<div class="widget_siber populer_show">
 		<div class="title_sidebar_ok">
 			<h3 class="title_heading_sidebar">Populer On Website</h3>

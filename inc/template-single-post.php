@@ -54,7 +54,7 @@
                         <div class="content">
                             <?php echo the_content(); ?>
                         </div>
-                        <?php echo the_tags('<div class="pt-5 pb-2"><span class="badge badge-success tags_bottom">', '</span><span class="badge badge-success tags_bottom">', '</span></div>');  ?>
+                        <?php echo the_tags('<div class="pt-5 pb-2"><span class="badge badge-success tags_bottom mb-2">', '</span><span class="mb-2 badge badge-success tags_bottom">', '</span></div>');  ?>
                     </div>
                 </div>
             <?php endwhile; ?>

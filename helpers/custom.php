@@ -99,6 +99,28 @@ function mytheme_customize_register($wp_customize)
             )
         )
     );
+
+    $wp_customize->add_setting('set_right_sticky', array(
+        "default"        => 'sticky',
+        'type'           => 'option',
+        'transport'      => 'refresh',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'set_right_sticky',
+            array(
+                'label'          => "Apakah ingin mengaktifikan Sticky Sidebar ?",
+                'section'        => 'all_option',
+                'type'           => 'radio',
+                'choices'        => array(
+                    'sticky'     => "Iya",
+                    'relative'   => "Tidak"
+                )
+            )
+        )
+    );
 }
 
 add_action('customize_register', 'mytheme_customize_register');
@@ -126,4 +148,16 @@ function mytheme_customize_css()
 <?php
 }
 
+function mytheme_customize_js()
+{ ?>
+    <script>
+        document.getElementById("rs").style.position = "<?php echo get_option("set_right_sticky"); ?>";
+        <?php
+        if (get_option('set_right_sticky') == "relative") { ?>
+            document.getElementById("rs").style.top = 0;
+        <?php } ?>
+    </script>
+<?php }
+
 add_action('wp_head', 'mytheme_customize_css');
+add_action('wp_footer', 'mytheme_customize_js');

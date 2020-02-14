@@ -22,7 +22,7 @@ if (!function_exists('sigara_setup')) :
 			'custom-logo',
 			array(
 				'height'      => 40,
-				'width'       => '',
+				'width'       => 80,
 				'flex-height' => true,
 				'flex-width'  => true,
 			)
